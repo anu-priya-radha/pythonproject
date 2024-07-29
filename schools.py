@@ -11,19 +11,21 @@ while True :
             print("")
             name = input("Enter student name: ")
             age = int(input("Enter student age: "))
-            grade = int(input("Enter student grade: "))
+            mark = int(input("Enter student mark: "))
             if(age>20):
                   print(f"{name} not a student")
             else:
                   print(f"{name} is a student")
-            if(grade>=80):
+            if(mark>=80):
                   print(f"{name} Got a grade A")
-            elif(grade<=80 and grade>=60):
+            elif(mark<=80 and mark>=60):
                    print(f"{name} Got a grade B")
-            elif(grade>=50 and grade<=60):
+            elif(mark>=50 and mark<=60):
                    print(f"{name} Got a grade C")
             else:
                   print("Fail")
+            break
+
                 
     if choice == 2:
             print("")
@@ -46,7 +48,8 @@ while True :
         print("Program Successfully Executed")
         break
     else :
-        print("Invalid Choices")
+        print("Invalid Choice")
+
 
           
         
